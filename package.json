@@ -18,6 +18,7 @@
 	"homepage": "https://github.com/Mephiles/npm-discord-bot#readme",
 	"dependencies": {
 		"discord.js": "^12.5.1",
-		"gk-options-validator": "^1.0.0"
+		"gk-options-validator": "v1.0.0",
+		"gk-app": "^1.0.1"
 	}
 }
