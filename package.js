@@ -236,6 +236,7 @@ class DiscordBot extends App {
 
 	// Helper functions
 	DisplayLogs(commandOptions, channel) {
+		//TODO: Catch exception if embed content is too large
 		let lastX =
 			commandOptions !== null && !isNaN(parseInt(commandOptions)) && parseInt(commandOptions) > 0
 				? parseInt(commandOptions)
